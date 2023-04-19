@@ -16,6 +16,9 @@
 		F0C1223A29F0527500096E14 /* SimpleEmployeeListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1223929F0527500096E14 /* SimpleEmployeeListUITestsLaunchTests.swift */; };
 		F0C1224829F052CC00096E14 /* SimpleEmployeeList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0C1224629F052CC00096E14 /* SimpleEmployeeList.xcdatamodeld */; };
 		F0C1224A29F0530A00096E14 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1224929F0530A00096E14 /* DataController.swift */; };
+		F0C1224F29F0545100096E14 /* EmployeeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1224E29F0545100096E14 /* EmployeeList.swift */; };
+		F0C1225229F0548700096E14 /* EmployeeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1225129F0548700096E14 /* EmployeeDetail.swift */; };
+		F0C1225529F0552000096E14 /* ToastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1225429F0552000096E14 /* ToastMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		F0C1223929F0527500096E14 /* SimpleEmployeeListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEmployeeListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F0C1224729F052CC00096E14 /* SimpleEmployeeList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleEmployeeList.xcdatamodel; sourceTree = "<group>"; };
 		F0C1224929F0530A00096E14 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		F0C1224E29F0545100096E14 /* EmployeeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeList.swift; sourceTree = "<group>"; };
+		F0C1225129F0548700096E14 /* EmployeeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetail.swift; sourceTree = "<group>"; };
+		F0C1225429F0552000096E14 /* ToastMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,9 +142,28 @@
 		F0C1224B29F0538400096E14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F0C1225329F0550700096E14 /* Helpers */,
+				F0C1225029F0547500096E14 /* EmployeeList */,
 				F0C1221E29F0527400096E14 /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F0C1225029F0547500096E14 /* EmployeeList */ = {
+			isa = PBXGroup;
+			children = (
+				F0C1224E29F0545100096E14 /* EmployeeList.swift */,
+				F0C1225129F0548700096E14 /* EmployeeDetail.swift */,
+			);
+			path = EmployeeList;
+			sourceTree = "<group>";
+		};
+		F0C1225329F0550700096E14 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F0C1225429F0552000096E14 /* ToastMessage.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +298,10 @@
 			files = (
 				F0C1224829F052CC00096E14 /* SimpleEmployeeList.xcdatamodeld in Sources */,
 				F0C1224A29F0530A00096E14 /* DataController.swift in Sources */,
+				F0C1224F29F0545100096E14 /* EmployeeList.swift in Sources */,
+				F0C1225529F0552000096E14 /* ToastMessage.swift in Sources */,
 				F0C1221F29F0527400096E14 /* ContentView.swift in Sources */,
+				F0C1225229F0548700096E14 /* EmployeeDetail.swift in Sources */,
 				F0C1221D29F0527400096E14 /* SimpleEmployeeListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
