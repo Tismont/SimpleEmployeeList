@@ -10,7 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            EmployeeList()
+            TabView {
+                EmployeeList()
+                    .tabItem {
+                        Label("Employee List", systemImage: "person")
+                    }
+                
+                About()
+                    .tabItem {
+                        Label("About", systemImage: "questionmark.circle")
+                    }
+            }
         }
     }
 }

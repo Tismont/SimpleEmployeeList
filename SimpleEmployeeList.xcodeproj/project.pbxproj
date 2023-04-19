@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00388D629F08C3700C51BB6 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00388D529F08C3700C51BB6 /* About.swift */; };
 		F0C1221D29F0527400096E14 /* SimpleEmployeeListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1221C29F0527400096E14 /* SimpleEmployeeListApp.swift */; };
 		F0C1221F29F0527400096E14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C1221E29F0527400096E14 /* ContentView.swift */; };
 		F0C1222129F0527400096E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C1222029F0527400096E14 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F00388D529F08C3700C51BB6 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		F0C1221929F0527400096E14 /* SimpleEmployeeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleEmployeeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C1221C29F0527400096E14 /* SimpleEmployeeListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEmployeeListApp.swift; sourceTree = "<group>"; };
 		F0C1221E29F0527400096E14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F00388D429F08C2F00C51BB6 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				F00388D529F08C3700C51BB6 /* About.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		F0C1221029F0527400096E14 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 		F0C1224B29F0538400096E14 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F00388D429F08C2F00C51BB6 /* About */,
 				F0C1225329F0550700096E14 /* Helpers */,
 				F0C1225029F0547500096E14 /* EmployeeList */,
 				F0C1221E29F0527400096E14 /* ContentView.swift */,
@@ -297,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C1224829F052CC00096E14 /* SimpleEmployeeList.xcdatamodeld in Sources */,
+				F00388D629F08C3700C51BB6 /* About.swift in Sources */,
 				F0C1224A29F0530A00096E14 /* DataController.swift in Sources */,
 				F0C1224F29F0545100096E14 /* EmployeeList.swift in Sources */,
 				F0C1225529F0552000096E14 /* ToastMessage.swift in Sources */,
